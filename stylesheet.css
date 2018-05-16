@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'proxima-nova', sans-serif;
+    text-align: center;
+    color: pink;
+    font-size: 65px;
+    letter-spacing: 15px;
+}
+
+h2 {
+    color: thistle;
+}
+
+body {
+    font-family: 'Raleway', Sans-Serif;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: url("https://free-hd-wallpapers.info/wp-content/uploads/2018/03/big-black-wallpaper-big-black-wallpapers-030.jpg");
+}
+
+p {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    display: inline;
+}
+
+#container img {
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 5px white;
+}
+
+.navigation {
+    font-family: 'Raleway', Sans-Serif;
+    border-bottom: 1px DimGray;
+    border-top: 1px DimGray;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+a:hover {
+    background-color: pink;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.contact {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+#contact {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
