@@ -1,19 +1,19 @@
 h1 {
-    font-family: 'proxima-nova', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     color: pink;
-    font-size: 65px;
-    letter-spacing: 15px;
+    font-size: 75px;
+    letter-spacing: 20px;
 }
 
 h2 {
     color: thistle;
 }
 
-body {
-    font-family: 'Raleway', Sans-Serif;
+* body {
+    font-family: 'Shadows Into Light', cursive;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     color: white;
     background-image: url("https://free-hd-wallpapers.info/wp-content/uploads/2018/03/big-black-wallpaper-big-black-wallpapers-030.jpg");
@@ -25,15 +25,16 @@ p {
 
 #container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     display: inline;
+    margin: auto;
 }
 
 #container img {
     height: 400px;
     width: 400px;
     border-radius: 8px;
-    box-shadow: 5px white;
+    box-shadow: 5px 5px white;
 }
 
 .navigation {
@@ -56,15 +57,23 @@ a:visited {
     text-decoration: none;
 }
 
-.contact {
-    padding: 12px;
-    border: 1px solid #ccc;
+#contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-#contact {
-    display: block;
-    align-content: center;
-    text-align: center;
+.contact {
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 form {
@@ -72,4 +81,12 @@ form {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+@media screen and (max-width:768px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
